@@ -1,0 +1,166 @@
+body {
+    background: url(../img/background.png);
+    background-size: 100%;
+}
+.container {
+    max-width: 1280px;
+    margin-top: 49px;
+    margin-left: 155px;
+    margin-right: 150px;
+}
+
+.header {
+    display: inline;
+    width: 1280px;
+}
+
+.header__logo {
+    display: inline-block;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.header__logo_img {
+    float:   left;
+    display: inline;
+    padding-top: 15px;
+}
+
+.header__logo a {
+    color: white;
+    display: block;
+}
+
+.header__logo_text-mailan {
+    font-family: Verdana, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header__logo_text-hilidays {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header__info {
+    float: right;
+    padding-top: 15px;
+}
+
+.header__info a{
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content__block a {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.footer {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    line-height: 21px;
+    text-align: center
+}
+
+.clearFix {
+    clear: both;
+}
+
+.content__block:hover a {
+    color: #f26522;
+}
+
+.content__block:hover .content__block_swiping{
+    visibility: visible;
+
+}
+
+.content__block_swiping {
+    background-color: #f26522;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 25px;
+    transition: opacity 1s;
+}
+
+.content__block {
+    width: 312px;
+    margin: 45px 66px 25px 0;
+    position: relative;
+}
+
+.right_block {
+    margin-right: 0;
+}
+
+.content__block img {
+    width: 100%;
+}
+
+.content__block_price {
+    font-family: Verdana, sans-serif;
+    color:  white;
+    font-size: 10px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.content__block_details {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left
+}
+
+.content__block_price_value {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    position: absolute;
+    bottom: -8px;
+}
+
+.content__block a {
+    text-decoration: none;
+}
+
+/*
+.content__block img:hover .content__block a{
+    color: #f26522;
+}*/
